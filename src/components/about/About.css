@@ -1,0 +1,112 @@
+#about {
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.left img {
+    position: relative;
+    width: 80%;
+    height: auto;
+    border: 3px solid rgb(53, 52, 52);
+    border-radius: 50%;
+}
+
+.right {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-container {
+    width: 70%;
+    margin-top: 33%;
+}
+
+.hello {
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    font-size: 2.5rem;
+    font-weight: 700
+}
+
+.socials {
+    margin: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#github {
+    margin: 0.2rem;
+    font-size: 50px;
+    color: black;
+}
+
+#github:hover {
+    color: rgb(18, 18, 197);
+}
+
+#instagram {
+    margin: 0.2rem;
+    font-size: 50px;
+    color: black;
+}
+
+#instagram:hover {
+    color: rgb(174, 0, 255);
+}
+
+#youtube {
+    margin: 0.2rem;
+    font-size: 50px;
+    color: black;
+}
+
+#youtube:hover {
+    color: red;
+}
+
+#facebook {
+    margin: 0.2rem;
+    font-size: 50px;
+    color: black;
+}
+
+#facebook:hover {
+    color: rgb(0, 60, 255);
+}
+
+#linkedin {
+    margin: 0.2rem;
+    font-size: 50px;
+    color: black;
+}
+
+#linkedin:hover {
+    color: rgb(0, 110, 255);
+}
+
+.divider {
+    background-color: rgb(15, 14, 14);
+    height: 3.5rem; 
+    width: 0.1rem; 
+    background-color: #999999;
+    display: inline-block;
+}
