@@ -12,7 +12,7 @@ import contageon_simulation from '../../demos/contageon_simulation.mov';
 import pong from '../../demos/pong.mov';
 
 
-const project_demos = [csxl, contageon_simulation, csxl, pong, csxl, contageon_simulation, csxl]
+const project_demos = [contageon_simulation, csxl, contageon_simulation, pong, csxl, contageon_simulation, csxl]
 
 export default function ProjectCard(props) {
   const handleMouseOver = () => {
