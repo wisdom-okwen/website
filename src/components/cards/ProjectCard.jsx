@@ -38,9 +38,9 @@ export default function ProjectCard(props) {
         boxShadow: 6, 
         margin: 2, 
         borderRadius: '8px', 
+        transition: 'transform 0.3s ease, box-shadow 0.3s ease',
         ':hover': {
           boxShadow: 20,
-          zIndex: 70
         },
       }}
       onMouseOver={handleMouseOver}
@@ -83,7 +83,7 @@ export default function ProjectCard(props) {
           { props.description }
         </Typography>
         <Typography 
-          sx={{ fontWeight: 520, marginTop: '8px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', width: '300px' }}
+          sx={{ fontWeight: 500, marginTop: '8px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', width: '300px' }}
           gutterBottom 
           variant="body3" component="div"
         >
