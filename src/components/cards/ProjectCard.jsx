@@ -47,7 +47,7 @@ export default function ProjectCard(props) {
       onMouseLeave={handleMouseLeave}
     >
       <CardMedia
-        sx={{ width: '100%', height: 260 }}
+        sx={{ width: '100%', height: 260, pointerEvents: 'none' }}
         component='video'
         src={project_demos[props.id - 1]}
         title={props.title}
