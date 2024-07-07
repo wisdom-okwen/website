@@ -9,9 +9,10 @@ import Typography from '@mui/material/Typography';
 import PushPinOutlinedIcon from '@mui/icons-material/PushPinOutlined';
 import csxl from '../../demos/csxl.mov';
 import contageon_simulation from '../../demos/contageon_simulation.mov';
+import pong from '../../demos/pong.mov';
 
 
-const project_demos = [csxl, contageon_simulation, csxl, contageon_simulation, csxl, contageon_simulation, csxl]
+const project_demos = [csxl, contageon_simulation, csxl, pong, csxl, contageon_simulation, csxl]
 
 export default function ProjectCard(props) {
   const handleMouseOver = () => {
@@ -32,7 +33,7 @@ export default function ProjectCard(props) {
     <Card 
       sx={{ 
         width: 340, 
-        height: 480, 
+        height: 500, 
         boxShadow: 6, 
         margin: 2, 
         borderRadius: '8px', 
@@ -45,7 +46,7 @@ export default function ProjectCard(props) {
       onMouseLeave={handleMouseLeave}
     >
       <CardMedia
-        sx={{ width: '100%', height: 240 }}
+        sx={{ width: '100%', height: 260 }}
         component='video'
         src={project_demos[props.id - 1]}
         title={props.title}
