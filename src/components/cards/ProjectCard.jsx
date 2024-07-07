@@ -10,9 +10,10 @@ import PushPinOutlinedIcon from '@mui/icons-material/PushPinOutlined';
 import csxl from '../../demos/csxl.mov';
 import contageon_simulation from '../../demos/contageon_simulation.mov';
 import pong from '../../demos/pong.mov';
+import california from '../../demos/california.mov';
 
 
-const project_demos = [contageon_simulation, csxl, contageon_simulation, pong, csxl, contageon_simulation, csxl]
+const project_demos = [california, csxl, contageon_simulation, pong, csxl, contageon_simulation, csxl]
 
 export default function ProjectCard(props) {
   const handleMouseOver = () => {
@@ -32,7 +33,7 @@ export default function ProjectCard(props) {
   return (
     <Card 
       sx={{ 
-        width: 340, 
+        width: 350, 
         height: 500, 
         boxShadow: 6, 
         margin: 2, 

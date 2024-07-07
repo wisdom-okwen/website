@@ -18,7 +18,7 @@ const projects = [
         id: 2,
         title: "UNC CSXL Website",
         url: "https://final-team-c2-comp590-140-24sp-evanesce.apps.unc.edu/announcements",
-        description: "News page that helps 800+ students in the department get easy access to information about events/conferences/activities",
+        description: "News page that helps 800+ students in the department get easy access to information about events/conferences/activities.",
         built_with: ['Angular, ', 'Python, ', 'FastAPI, ', 'SQLAlchemy'],
         deployed: true,
         deployment_type: deployment_types.website
@@ -27,7 +27,7 @@ const projects = [
         id: 3,
         title: "Contageon Simulation",
         url: "https://github.com/wisdom-okwen/contageon-simulation",
-        description: "A simulation of how epdemics propagate within a region from first contraction until recovery",
+        description: "A simulation of how epdemics propagate within a region from first contraction until recovery.",
         built_with: ['Python'],
         deployed: false,
         deployment_type: deployment_types.undeployed
@@ -36,40 +36,31 @@ const projects = [
         id: 4,
         title: "Ping Pong Game",
         url: "",
-        description: "A very good project that can lead to great things in life asd thweojowsdf aweohwoi waoihnjweof wfo iqa wefrwfew ",
-        built_with: ['React, '],
+        description: "A tabel tennis game with 2-player controls with each player taking turns to serve.",
+        built_with: ['Python, ', 'Pygame'],
         deployed: false,
         deployment_type: deployment_types.website
     },
     {
         id: 5,
-        title: "Contageon Simulation",
+        title: "My Fun App",
         url: "",
-        description: "A very good project",
-        built_with: ['Express, ', 'React ', 'MongoDB '],
+        description: "A fullstack app for people to share their experiences about their trips/hikes. AI integrated to recommend places to visit.",
+        built_with: ['FastAPI, ', 'React, ', 'PostgreSQL, ', 'SQLAlchemy'],
         media_type: 'video',
         deployed: false,
         deployment_type: deployment_types.website
     },
     {
         id: 6,
-        title: "Contageon Simulation",
+        title: "Project Management App",
         url: "",
-        description: "A very good project",
-        built_with: ['React, '],
+        description: "A fullstack app for organizing, setting budgets and developing metrics for projects.",
+        built_with: ['React, ', 'GraphQL, ', 'Express, ', 'MongoDB'],
         media_type: 'video',
         deployed: false,
         deployment_type: deployment_types.youtube
     },
-    {
-        id: 7,
-        title: "Contageon Simulation",
-        url: "",
-        description: "A very good project",
-        built_with: ['React, '],
-        deployed:false,
-        deployment_type: deployment_types.undeployed
-    }
 ]
 
 export default projects
