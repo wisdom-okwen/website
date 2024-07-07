@@ -44,7 +44,7 @@ const projects = [
     {
         id: 5,
         title: "My Fun App",
-        url: "",
+        url: "https://github.com/wisdom-okwen/My-Fun",
         description: "A fullstack app for people to share their experiences about their trips/hikes. AI integrated to recommend places to visit.",
         built_with: ['FastAPI, ', 'React, ', 'PostgreSQL, ', 'SQLAlchemy'],
         media_type: 'video',
