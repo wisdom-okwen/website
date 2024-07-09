@@ -12,14 +12,19 @@
 
 .carousel {
     width: 90%;
+    max-width: 90%;
+    min-width: 70%;
     margin: auto;
 }
 
 @media (min-width: 2000) {
     .carousel {
-        max-width: 55%;
+        width: 60% !important;
     }
     #experiences {
         height: 50vh;
+    }
+    #exp-title {
+        font-size: 2rem !important;
     }
 }

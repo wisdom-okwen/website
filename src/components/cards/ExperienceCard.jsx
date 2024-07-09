@@ -3,9 +3,11 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 
 export default function ExperienceCard(props) {
+  const isMobile = useMediaQuery('(max-width:768px)');
   return (
     <Box sx={{ 
         width: 350, 
@@ -17,15 +19,15 @@ export default function ExperienceCard(props) {
         }
       }}
     >
-      <Card sx={{ marginBottom: 1, width: 350, height: 200 }} variant="outlined">
+      <Card sx={{ marginBottom: 1, width: isMobile ? 290 : 350, height: 200 }} variant="outlined">
         <CardContent>
-          <Typography  variant="h5" component="div">
+          <Typography sx={{ fontWeight: 600 }} variant={isMobile ? "h6": "h5"} component="div">
             {props.company}
           </Typography>
-          <Typography sx={{ mb: 2 }} color="text.secondary">
+          <Typography sx={{ mb: {sm: 1, md: 2 }}} variant={isMobile ? "body4" : "body3" } color="text.secondary">
             {props.title}
           </Typography>
-          <Typography variant="body3" color="text.secondary">
+          <Typography variant={isMobile ? "body" : "body3"} color="text.secondary">
             {props.team}
           </Typography>
           <Typography variant="body2">
