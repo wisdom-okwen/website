@@ -60,3 +60,25 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+
+   .pr-card {
+        width: 300px !important;
+        height: 410px !important;
+    }
+    #card-media {
+        height: 200px !important;
+    }
+    #card-text {
+        font-size: 0.8rem;
+    }
+    #card-built-with {
+        font-size: 0.8rem;
+        font-weight: 600;
+        font-style: italic;
+    }
+    #card-title {
+        font-size: 1.1rem;
+    }
+}

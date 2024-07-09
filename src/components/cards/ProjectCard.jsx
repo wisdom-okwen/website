@@ -32,6 +32,7 @@ export default function ProjectCard(props) {
 
   return (
     <Card 
+      className='pr-card'
       sx={{ 
         width: 350, 
         height: 500, 
@@ -43,10 +44,12 @@ export default function ProjectCard(props) {
           boxShadow: 20,
         },
       }}
+
       onMouseOver={handleMouseOver}
       onMouseLeave={handleMouseLeave}
     >
       <CardMedia
+        id='card-media'
         sx={{ width: '100%', height: 260, pointerEvents: 'none' }}
         component='video'
         src={project_demos[props.id - 1]}
@@ -68,6 +71,7 @@ export default function ProjectCard(props) {
       </div>
       <CardContent>
         <Typography 
+          id='card-title'
           sx={{ fontWeight: 600, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', width: '300px' }}
           gutterBottom 
           variant="h6" component="div"
@@ -75,6 +79,7 @@ export default function ProjectCard(props) {
           { props.title }
         </Typography>
         <Typography 
+          id='card-text'
           sx={{ display: '-webkit-box', overflow: 'hidden', WebkitBoxOrient: 'vertical', WebkitLineClamp: 3, lineHeight: '1.2em', height: '3.6em', }}
           variant="body3" 
           color="text.secondary"
@@ -83,6 +88,7 @@ export default function ProjectCard(props) {
           { props.description }
         </Typography>
         <Typography 
+          id='card-built-with'
           sx={{ fontWeight: 500, marginTop: '8px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', width: '300px' }}
           gutterBottom 
           variant="body3" component="div"
