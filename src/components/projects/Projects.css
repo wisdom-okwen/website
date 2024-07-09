@@ -65,10 +65,10 @@ h1 {
 
    .pr-card {
         width: 300px !important;
-        height: 410px !important;
+        height: 460px !important;
     }
     #card-media {
-        height: 200px !important;
+        height: 250px !important;
     }
     #card-text {
         font-size: 0.8rem;
