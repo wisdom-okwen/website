@@ -21,10 +21,4 @@
     .carousel {
         width: 60% !important;
     }
-    #experiences {
-        height: 50vh;
-    }
-    #exp-title {
-        font-size: 2rem !important;
-    }
 }
