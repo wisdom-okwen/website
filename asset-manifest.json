@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.fc4ae6ce.css",
-    "main.js": "/website/static/js/main.ed7af0e0.js",
+    "main.css": "/website/static/css/main.d9f70e3f.css",
+    "main.js": "/website/static/js/main.be12cc27.js",
     "static/js/453.d855a71b.chunk.js": "/website/static/js/453.d855a71b.chunk.js",
     "static/media/csxl.mov": "/website/static/media/csxl.ad355f4afc1abe07c716.mov",
     "static/media/california.mov": "/website/static/media/california.31efe973756a78a9a220.mov",
@@ -12,12 +12,12 @@
     "static/media/revicons.ttf": "/website/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/website/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/website/index.html",
-    "main.fc4ae6ce.css.map": "/website/static/css/main.fc4ae6ce.css.map",
-    "main.ed7af0e0.js.map": "/website/static/js/main.ed7af0e0.js.map",
+    "main.d9f70e3f.css.map": "/website/static/css/main.d9f70e3f.css.map",
+    "main.be12cc27.js.map": "/website/static/js/main.be12cc27.js.map",
     "453.d855a71b.chunk.js.map": "/website/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc4ae6ce.css",
-    "static/js/main.ed7af0e0.js"
+    "static/css/main.d9f70e3f.css",
+    "static/js/main.be12cc27.js"
   ]
 }
