@@ -57,6 +57,7 @@ export default function ProjectCard(props) {
         autoPlay
         loop
         muted
+        playsInline
         aria-label={props.title}
       />
       <div className="pin-section">
