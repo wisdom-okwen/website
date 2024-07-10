@@ -18,8 +18,8 @@
 .left img {
     position: relative;
     width: 80%;
-    max-width: 700px;
-    min-width: 300px;
+    max-width: 400px;
+    min-width: 200px;
     height: auto;
     border: 3px solid rgb(53, 52, 52);
     border-radius: 50%;
@@ -124,6 +124,7 @@
 
     .left {
         margin-top: 4rem;
+        height: 50vh;
         width: 100%;
     }
 
