@@ -1,11 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import './Navbar.css';
-import { ThemeContext } from '../../theme_context';
+import BasicSwitches from "./ThemeSwitch";
 
 
 function Navbar() {
-
-    const { theme, toggleTheme } = useContext(ThemeContext);
 
     return (
         <div className="navbar">
@@ -15,12 +13,10 @@ function Navbar() {
                     <a href="#about" className="nav-link">About</a>
                     <a href="#projects" className="nav-link">Projects</a>
                     <a href="#experiences" className="nav-link">Experiences</a>
-                    <a href="https://drive.google.com/file/d/1i9hknt0d2bPmKYwxHqnJXHnh8LjkAO5W/view?usp=drive_link" className="nav-link" target="_blank">
+                    <a href="https://drive.google.com/file/d/1i9hknt0d2bPmKYwxHqnJXHnh8LjkAO5W/view?usp=drive_link" className="nav-link" target="_blank" rel="noreferrer">
                         Resume
                     </a>
-                    <button onClick={toggleTheme}>
-                        {theme === 'light' ? 'Dark' : 'Light'} Mode
-                    </button>
+                    <BasicSwitches />
                 </div>
             </nav>
         </div>
