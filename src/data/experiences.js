@@ -22,7 +22,7 @@ const experiences = [
     },
     {
         title: "Research Intern",
-        company: "Renaissance Computing Inst.",
+        company: "Renaissance Compt. Inst.",
         team: "HelX Platform",
         date: "Aug - Dec 2022",
         tech_stack: ["Python, ", "JavaScript, ", "Docker, ", "Kubernetes"],
