@@ -24,7 +24,6 @@ export default function BasicSwitches() {
   return (
     <div>
       <StyledSwitch {...label} defaultChecked onChange={toggleTheme} theme={theme} />
-      <StyledSwitch {...label} onChange={toggleTheme} theme={theme} />
     </div>
   );
 }
