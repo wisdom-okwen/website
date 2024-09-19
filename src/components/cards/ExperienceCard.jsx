@@ -28,7 +28,7 @@ export default function ExperienceCard(props) {
             {props.title}
           </Typography>
           <br/>
-          <Typography sx={{fontStyle: 'italic', fontWeight: 505}} variant={isMobile ? "body5" : "body4"} color="010B13">
+          <Typography sx={{fontStyle: 'italic', fontWeight: 501}} variant={isMobile ? "body5" : "body4"} color="010B13">
             {' ' + props.team}
           </Typography>
           <Typography variant="body2" color="text.secondary">
