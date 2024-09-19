@@ -21,16 +21,17 @@ export default function ExperienceCard(props) {
     >
       <Card sx={{ marginBottom: 1, width: isMobile ? 290 : 350, height: 200 }} variant="outlined">
         <CardContent>
-          <Typography sx={{ fontWeight: 600 }} variant={isMobile ? "h6": "h5"} component="div">
+          <Typography sx={{ fontWeight: 590 }} variant={isMobile ? "h6": "h5"} component="div">
             {props.company}
           </Typography>
           <Typography sx={{ mb: {sm: 1, md: 2 }}} variant={isMobile ? "body4" : "body3" } color="text.secondary">
             {props.title}
           </Typography>
-          <Typography variant={isMobile ? "body" : "body3"} color="text.secondary">
-            {props.team}
+          <br/>
+          <Typography sx={{fontStyle: 'italic', fontWeight: 505}} variant={isMobile ? "body5" : "body4"} color="010B13">
+            {' ' + props.team}
           </Typography>
-          <Typography variant="body2">
+          <Typography variant="body2" color="text.secondary">
             {props.tech_stack}
           </Typography>
           <hr /> 

@@ -30,7 +30,7 @@ const experiences = [
     {
         title: "Residential Computing Consultant",
         company: "UNC IT Services",
-        team: "ResNet",
+        team: "Residential Networks",
         date: "Aug 2023 - present",
         tech_stack: ["Troubleshooting, ", "Networking, ", "IT Support"],
     }
