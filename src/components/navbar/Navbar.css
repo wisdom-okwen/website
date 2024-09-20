@@ -49,4 +49,8 @@ nav #name {
     .nav-links {
         display: none;
     }
+
+    .nav-link {
+        display: none;
+    }
 }
